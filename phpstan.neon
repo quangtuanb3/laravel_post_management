@@ -1,0 +1,15 @@
+includes:
+    - ./vendor/nunomaduro/larastan/extension.neon
+parameters:
+    paths:
+        - app
+    level: 9
+    ignoreErrors:
+        - '#^Method App\\Models\\Scopes\\AncientScope\:\:apply\(\) has parameter \$builder with generic class Illuminate\\Database\\Eloquent\\Builder but does not specify its types\: TModelClass$#'
+        - '#^Parameter \#1 \$value of method Carbon\\Carbon\:\:addMinutes\(\) expects int, mixed given\.$#'
+        - '#Call to an undefined method [a-zA-Z0-9\\_::]#'
+        - '#^Access to an undefined property App\\Models\\User\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\User\>\:\:\$\w+\.$#'
+        - '#^Parameter \#1 \$value of function bcrypt expects string, mixed given\.$#'
+        - '#^Method App\\Http\\Services\\UserService\:\:update\(\) should return App\\Models\\User but returns App\\Models\\User\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\User\>\.$#'
+        - '#^Method App\\Http\\Requests\\UpdatePostRequest\:\:messages\(\) return type has no value type specified in iterable type array\.$#'
+    excludePaths:

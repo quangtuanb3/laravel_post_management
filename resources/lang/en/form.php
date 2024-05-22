@@ -1,0 +1,33 @@
+<?php
+return [
+    'subject' => 'Subject',
+    'content' => 'Content',
+    'hashtags' => 'Hashtags',
+    'email' => 'Email',
+    'password' => 'Password',
+    'password_confirmation' => 'Confirm Password',
+    'current_password' => 'Current password',
+    'not-a-member' => 'Not a member?',
+    'a-member' => 'Already have account? Login now',
+    'register' => "Register",
+    'confirm' => 'Confirm',
+    'complete' => 'Complete',
+    'next' => 'Next',
+    'clear' => 'Clear',
+    'back' => 'Back',
+    'username' => 'Username',
+    'address' => 'Address',
+    'phone' => 'Phone',
+    'position' => 'Position',
+    'gender' => 'Gender',
+    'avatar' => 'Avatar',
+    'author' => 'Author',
+    'view_number' => 'View number',
+    'action' => 'Action',
+    'created_at' => 'Created at',
+    'image' => 'Image',
+    'male' => 'Male',
+    'female' => 'Female',
+    'other' => 'Other'
+
+];
